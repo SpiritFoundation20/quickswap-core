@@ -196,16 +196,16 @@ library SafeMath {
 
 contract Quick {
     /// @notice EIP-20 token name for this token
-    string public constant name = "Quickswap";
+    string public constant name = "SpiritCoin";
 
     /// @notice EIP-20 token symbol for this token
-    string public constant symbol = "QUICK";
+    string public constant symbol = "SPIRIT";
 
     /// @notice EIP-20 token decimals for this token
-    uint8 public constant decimals = 18;
+    uint8 public constant decimals = 14;
 
     /// @notice Total number of tokens in circulation
-    uint public totalSupply = 0; // QUICK
+    uint public totalSupply = 0; // SPIRIT
 
     /// @notice Allowance amounts on behalf of others
     mapping (address => mapping (address => uint96)) internal allowances;
