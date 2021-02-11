@@ -186,7 +186,7 @@ library SafeMath {
     }
 }
 
-contract QuickToken {
+contract SpiritCoin {
     /// @notice EIP-20 token name for this token
     string public constant name = "SpiritCoin";
 
@@ -194,7 +194,7 @@ contract QuickToken {
     string public constant symbol = "SPIRIT";
 
     /// @notice EIP-20 token decimals for this token
-    uint8 public constant decimals = 14; 
+    uint8 public constant decimals = 15; 
 
     /// @notice Total number of tokens in circulation
     uint public totalSupply = 10000000000000000000000000; // 1 million QUICK
