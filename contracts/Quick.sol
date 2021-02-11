@@ -194,7 +194,7 @@ library SafeMath {
     }
 }
 
-contract Quick {
+contract Spirit {
     /// @notice EIP-20 token name for this token
     string public constant name = "SpiritCoin";
 
